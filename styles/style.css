@@ -98,15 +98,48 @@ table {
 
 .map-section .Two-boxes {
   width: 100%;
-  top: 230px;
-  padding: 0px 150px 0px 150px;
+  top: 280px;
+  padding: 0px 100px 0px 100px;
   margin: 0px 0px 30px 0px; }
   .map-section .Two-boxes .beige-box {
     background: #EBE8DE;
-    height: 450px;
+    height: 380px;
     width: 100%; }
+    .map-section .Two-boxes .beige-box .beige-box-text {
+      padding: 45px 0px 65px 0px; }
+      .map-section .Two-boxes .beige-box .beige-box-text h1 {
+        font-size: 30px;
+        padding-left: 30px; }
+      .map-section .Two-boxes .beige-box .beige-box-text h3 {
+        padding-top: 120px;
+        font-size: 25px; }
+    .map-section .Two-boxes .beige-box .icon-boxs .google-icon {
+      border: 1px solid #000;
+      border-radius: 25px;
+      padding: 3px;
+      width: 14%; }
   .map-section .Two-boxes .white-box {
     background: #fff;
-    height: 450px;
+    height: 380px;
     width: 100%;
     border: 1px solid #EBE8DE; }
+    .map-section .Two-boxes .white-box .form-group input {
+      width: 200px;
+      height: 40px;
+      margin: 10px;
+      border-radius: 0px;
+      background: #F2F2F2;
+      border: 0px; }
+    .map-section .Two-boxes .white-box .form-group textarea {
+      width: 200px;
+      height: 125px;
+      margin: 10px;
+      border-radius: 0px;
+      background: #F2F2F2;
+      border: 0px; }
+
+.map-section .form-check {
+  padding-left: 50px; }
+
+.map-section .Sign-up-box {
+  padding-top: 58px; }
