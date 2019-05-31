@@ -51,10 +51,16 @@ table {
   .background-img img {
     height: 156px;
     margin: 30px 0px 0px 30px; }
-  .background-img .icon-fas .fas {
-    color: #f2f2f2;
-    padding: 30px 30px 0px 0px;
-    font-size: 33px; }
+
+.burger-icon {
+  color: #f2f2f2;
+  padding: 30px 30px 0px 0px;
+  font-size: 33px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  cursor: pointer; }
 
 .Auto-exhibition {
   right: 30px;
@@ -67,14 +73,14 @@ table {
   height: 1080px;
   width: 100%;
   top: 0px;
-  z-index: 999999999999999999;
+  z-index: 800;
   background: white; }
 
 .opacity-menu {
   height: 1080px;
   width: 100%;
   top: 0px;
-  z-index: 9999999999999999999; }
+  z-index: 900; }
   .opacity-menu img {
     margin: 30px 0px 0px 30px;
     height: 156px; }
@@ -109,7 +115,7 @@ table {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
+    width: 95%;
     height: 175px;
     top: -6px; }
   .animation-section .background-bus {
@@ -127,7 +133,7 @@ table {
     background-position: center;
     background-size: contain;
     height: 5px;
-    width: 100%;
+    width: 95%;
     bottom: -32px; }
 
 .map-section iframe {
