@@ -7,7 +7,7 @@
 
   img {
     height: 156px;
-    padding: 30px 0px 0px 30px;
+    margin: 30px 0px 0px 30px;
   }
   .icon-fas .fas {
     color: #f2f2f2;
@@ -26,21 +26,36 @@
 // opacity
 .opacity {
   opacity: 0.5;
-  filter: alpha(opacity=50);
   height: 1080px;
   width: 100%;
   top: 0px;
   z-index: 999999999999999999;
-  .logo img{
-    color: red;
-    padding: 30px 0px 0px 30px;
+  // ბექრაუნდი უნდა ფერი უნდა ჩაგემატებინა რო თეთრი ყოფილიყო
+  background: white;
+}
+
+.opacity-menu {
+  height: 1080px;
+  width: 100%;
+  top: 0px;
+  z-index: 9999999999999999999;
+
+  img{
+    margin: 30px 0px 0px 30px;
     height: 156px;
   }
   .mtavari h3{
     color: #f2f2f2;
     font-size: 40px;
   }
+  .mtavari{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
 }
+
+
+
 // icon-section
 .icon-section {
   margin-bottom: 100px;
@@ -96,6 +111,7 @@
     width: 100%;
     left: 118px;
   }
+
 
   .background-way {
     background-image: url("../images/way.png");

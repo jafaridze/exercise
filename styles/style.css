@@ -50,7 +50,7 @@ table {
   width: 100%; }
   .background-img img {
     height: 156px;
-    padding: 30px 0px 0px 30px; }
+    margin: 30px 0px 0px 30px; }
   .background-img .icon-fas .fas {
     color: #f2f2f2;
     padding: 30px 30px 0px 0px;
@@ -64,18 +64,26 @@ table {
 
 .opacity {
   opacity: 0.5;
-  filter: alpha(opacity=50);
   height: 1080px;
   width: 100%;
   top: 0px;
-  z-index: 999999999999999999; }
-  .opacity .logo img {
-    color: red;
-    padding: 30px 0px 0px 30px;
+  z-index: 999999999999999999;
+  background: white; }
+
+.opacity-menu {
+  height: 1080px;
+  width: 100%;
+  top: 0px;
+  z-index: 9999999999999999999; }
+  .opacity-menu img {
+    margin: 30px 0px 0px 30px;
     height: 156px; }
-  .opacity .mtavari h3 {
+  .opacity-menu .mtavari h3 {
     color: #f2f2f2;
     font-size: 40px; }
+  .opacity-menu .mtavari {
+    margin-left: 100px;
+    margin-top: 100px; }
 
 .icon-section {
   margin-bottom: 100px; }
